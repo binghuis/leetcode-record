@@ -1,0 +1,23 @@
+{
+  "notebook.formatOnSave.enabled": true,
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.formatOnSave": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "python.analysis.extraPaths": [],
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.executorMap": {
+    "typescript": "bun",
+    "javascript": "bun"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "javascript": false,
+    "typescript": false
+  }
+}
